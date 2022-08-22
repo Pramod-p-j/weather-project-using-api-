@@ -1,0 +1,48 @@
+.heading{
+    text-align: center;
+    font-size:40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.search{
+    text-align: center;
+}
+.text{
+    border-radius: 40px;
+    padding: 5px 20px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+input[type="submit"]{
+    border-radius: 40px;
+    padding: 5px 20px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid black;
+}
+.display{
+    display: grid;
+    /* grid-auto-rows: auto; */
+    /* grid-gap: 10px; */
+    
+}
+.display>.items{
+    background-color: teal;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64,67, 0.15) 0px 2px 6px 2px;
+}
+.display>.items>.max{
+    /* margin-left: 5px; */
+    text-align: left;
+}
+.display>.items>.min{
+    text-align: right;
+}
+.display>.items>.humidity{
+    text-align: left;
+}
+.display>.items>.speed{
+    text-align: right;
+}
