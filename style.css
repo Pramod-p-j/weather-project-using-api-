@@ -20,9 +20,10 @@ input[type="submit"]{
     border: 1px solid black;
 }
 .display{
+    margin-top: 10px;
     display: grid;
-    /* grid-auto-rows: auto; */
-    /* grid-gap: 10px; */
+    grid-auto-rows: auto;
+    grid-gap: 10px;
     
 }
 .display>.items{
